@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "ls": "ls -lah",
     "status": "git status",
-    "start": "node index.js"
+    "start": "node index.js",
+    "clear": "npx eslint --fix-dry-run index.js"
   },
   "author": "glodie Tshimini",
   "license": "ISC",
