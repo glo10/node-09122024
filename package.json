@@ -13,7 +13,7 @@
     "t:i:9": "vitest tests/0-exercices/corrections/ex9/app.test.mjs",
     "t:i:10": "vitest tests/0-exercices/corrections/ex10/app.test.mjs",
     "t:f": "cypress open",
-    "x1": "node --watch 0-exercices/corrections/ex1/index.mjs",
+    "x1": "node --watch 0-exercices/corrections/ex1/promise-all.mjs",
     "x3": "node --watch 0-exercices/corrections/ex3/index.mjs",
     "x3b": "node --watch 0-exercices/corrections/ex3/bonus.mjs",
     "x4": "node --watch 0-exercices/corrections/ex4/index.mjs",

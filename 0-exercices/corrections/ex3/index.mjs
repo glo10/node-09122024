@@ -8,4 +8,4 @@ app.on('app:computed', (nb1, nb2) => {
 })
 setTimeout(() => {
   app.emit('app:computed', randomNumber(50), randomNumber(500))
-}, 3000)
+}, 5000)
