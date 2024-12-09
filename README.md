@@ -4,7 +4,7 @@
 
 ## Google Forms
 
-[Validation des acquis quotidienne](https://docs.google.com/forms/d/e/1FAIpQLSc8MwOeYr3XWxSCXKt-ntvzfjl8uV065hFuH9eQMdZLDArGhA/viewform)
+[Validation des acquis quotidienne](https://docs.google.com/forms/d/e/1FAIpQLSc4AMSDMpIK5NVbc0GD_0VhtPz1RH8FBJDpNB9NwEIszpLSAg/viewform)
 
 ---
 
