@@ -1,0 +1,13 @@
+{
+  "name": "5-web-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}
