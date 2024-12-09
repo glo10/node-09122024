@@ -1,0 +1,17 @@
+{
+  "name": "ex3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.mjs",
+    "bonus": "node bonus.mjs",
+    "test:unit": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
