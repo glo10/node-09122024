@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node --watch index.mjs"
+    "serve": "node --watch index.mjs"
   },
   "keywords": [],
   "author": "",
