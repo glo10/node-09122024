@@ -4,11 +4,16 @@
   "main": "index.js",
   "scripts": {
     "serve": "node --watch index.js",
-    "rappel": "node --watch rappel.js"
+    "dev": "node --watch server.js",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "supertest": "^7.0.0",
+    "vitest": "^2.1.8"
+  }
 }

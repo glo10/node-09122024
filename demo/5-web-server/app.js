@@ -1,8 +1,7 @@
 import { createServer } from 'node:http'
 
-const PORT = 8082
 // Définition du serveur (mise en place du serveur)
-const app = createServer(function(req, res){
+export const app = createServer(function(req, res){
   // req = requête du client
   // res = réponse du serveur
   if(req.url === '/') {// route / = page d'accueil
@@ -23,13 +22,4 @@ const app = createServer(function(req, res){
    * jusqu'à ce qu'il interrompt la communication (timeout)
    */ 
   res.end()
-})
-
-/**
- * Mettre le serveur en écoute pour des connexions clientes
- *  sur un port d'écoute
- * Attention le port doit être libre = non utilisé par une autre application
- */ 
-app.listen(PORT, () => {
-  console.log(`Running on http://localhost:${PORT}`)
 })
