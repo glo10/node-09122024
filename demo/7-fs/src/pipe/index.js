@@ -17,17 +17,19 @@ get(URL, (res) => {
   // res est un flux de lecture
   if(res.statusCode === 200) {
     // myWriteStream flux d'écriture
+    // Bannir le chemin relatif, bonne pratique construire un chemin absolue cf. demo du dossier /url-path
     const myWriteStream = createWriteStream('./cities.json')
     // pipe permet de synchroniser un flux ecriture/lecture avec un flux lecture/ecriture
     res.pipe(myWriteStream)
+    // A la réception des données (paquet)
     res.on('data', (chunk) => {
       console.log('donnée en cours', chunk.toString())
     })
-
+    // En cas d'erreur survenue durant le traitement
     res.on('error', (error) => {
       console.error('erreur', error.message)
     })
-
+    // A la fin
     res.on('end', () => {
       console.info('Fin des opérations')
     })

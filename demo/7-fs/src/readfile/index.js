@@ -1,13 +1,12 @@
 import { readFile } from 'node:fs'
 import { createServer } from 'node:http'
 
-
 const PORT = 8083
 const app = createServer((req, res) => {
   // A bannir de mettre les chemins en relatif
-  // Bonne pratique : toujours en absolue
+  // Bonne pratique : toujours les chémins en absolue avec une résolution du path
   try {
-    readFile('./index.html', { encoding: 'utf-8'}, (error, content) => {
+    readFile('../public/index.html', { encoding: 'utf-8'}, (error, content) => {
       if(!error) {
         console.error('erreur ', error)
         res.writeHead(200, { 'content-type': 'text/html' })
@@ -20,7 +19,6 @@ const app = createServer((req, res) => {
   } catch(error) {
     console.error('error dans le catch', error)
   }
-
 })
 
 app.listen(PORT, () => {

@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch index.js",
-    "w": "node --watch write.js",
-    "ws": "node pipe.js",
-    "p": "node --watch src/path.js"
+    "dev:r": "node --watch src/readfile/index.js",
+    "dev:w": "node --watch src/writefile/index.js",
+    "dev:ws": "node --watch src/pipe/index.js",
+    "dev:path": "node --watch src/url-path/index.js"
   },
   "keywords": [],
   "author": "",
