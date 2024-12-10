@@ -2,12 +2,10 @@
 
 ## Enoncé
 
-1. Installez *Express* de manière globale pour accéder de partout à la commande `express`
-2. Créez un projet Express avec Express-cli sans moteur de template
-(commande à exécuter `express --no-view myapp`), avec ***myapp*** à remplacer par le nom de votre dossier.
-3. [Récupérer les pages HTML depuis ce dossier compressé](./ressources/ex6.zip) et déplacez ces fichiers vers le dossier ***views*** de votre projet.
-4. Mettez en place les routes pour les pages de connexion, inscription et de news avec Express
-5. Migrez les dossiers *img/* et *css/* dans le dossier *public/*
+1. Installez *Express* de manière globale pour accéder de partout à la commande `express` (ça sera utile pour l'exercice 7, pour cet exercice nous allons utiliser le module express et pas encore *Express CLI*)
+2. Créez un projet Express en téléchargeant le module de manière locale grâce à une commande *npm*
+3. [Récupérer les pages HTML depuis ce dossier compressé](./ressources/ex6.zip) et reproduisez l'arborescence des dossiers et fichiers illustré ci-après.
+4. Mettez en place les routes pour les pages de *connexion*, *inscription* et de *news* avec Express
 
 ## Spécifications techniques 
 

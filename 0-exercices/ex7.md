@@ -1,6 +1,6 @@
 # Exercice 7 : routes dynamiques
 
-1. Générez un nouveau projet avec ***Express*** avec le moteur de template ***pug***
+1. Générez un nouveau projet avec ***Express CLI*** avec le moteur de template ***pug***
 2. Récupérez ces [ressources](./ressources/ex7.zip)
 - Copiez/collez le dossier ***data/*** à la racine de votre projet. Ce dossier contient le fichier `news.json`
 - Copiez/collez le dossier ***news/*** à l'intérieur du dossier ***views***/
