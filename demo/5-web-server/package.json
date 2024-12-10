@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "node --watch index.js"
+    "serve": "node --watch index.js",
+    "rappel": "node --watch rappel.js"
   },
   "keywords": [],
   "author": "",
