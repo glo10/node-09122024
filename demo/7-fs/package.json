@@ -4,7 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js",
-    "w": "node --watch write.js"
+    "w": "node --watch write.js",
+    "ws": "node pipe.js",
+    "p": "node --watch src/path.js"
   },
   "keywords": [],
   "author": "",
