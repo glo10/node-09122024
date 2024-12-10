@@ -1,15 +1,15 @@
 {
-  "name": "5-web-server",
+  "name": "6-testing",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "serve": "node --watch index.js"
+    "dev": "node --watch server.js",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "type": "module",
   "devDependencies": {
     "supertest": "^7.0.0",
     "vitest": "^2.1.8"
