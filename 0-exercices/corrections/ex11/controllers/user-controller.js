@@ -4,6 +4,8 @@ const UserModel = require('../models/schemas/user.js')
 exports.add = function (req, res) {
   const errorMessage = 'Impossible to create new user for the moment'
   const connectPromise = (new Mongo()).connect()
+  // Attention très dangereux d'insérer directement les données sans le controler
+  // Si vous mettez un middleware qui intercepte avant la requête et qui laisse passer alors le danger sera écarté arrivée ici
   const saveUserPromise = (new UserModel({...req.body})).save()
   Promise.all([connectPromise, saveUserPromise])
     .then((results) => {

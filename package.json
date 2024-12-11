@@ -24,7 +24,8 @@
     "x9": "node --watch 0-exercices/corrections/ex9/bin/www",
     "x10": "node --watch 0-exercices/corrections/ex10/bin/www",
     "x11": "node --watch 0-exercices/corrections/ex11/bin/www",
-    "x12": "node --watch 0-exercices/corrections/ex12/src/server.mjs"
+    "x12": "node --watch 0-exercices/corrections/ex12/src/server.mjs",
+    "e2e": "cypress open"
   },
   "author": "Glodie Tshimini",
   "license": "ISC",

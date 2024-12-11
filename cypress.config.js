@@ -5,7 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents (on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'http://localhost:5500/tests/front/src',
+    baseUrl: 'http://localhost:3000',
     viewportHeight: 619,
     viewportWidth: 1304,
     chromeWebSecurity: false
