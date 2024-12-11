@@ -12,3 +12,4 @@ PS: ici tous les fichiers js ont l'extension .cjs à la place du classique .js
 node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 Idéalement, isolez dans un fichier à part (ex: *config/secret.cjs*) et ne pas versionner ce fichier avec *git*, le ***secret*** utilisé par le module ***jsonwebtoken*** pour encoder les informations permettant de générer le ***token***.
+3. `npm run start`
