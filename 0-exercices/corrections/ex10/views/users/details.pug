@@ -1,0 +1,21 @@
+extends ../layout
+block content 
+  header
+    p
+      a(href="/") Retour page d'accueil
+    p
+      a(href="/users") Retour liste des utilisateurs
+  main
+    section
+      h2=data.name 
+      article
+        p Email :  #{data.email}
+        p Téléphone :  #{data.phone}
+        p Adresse : #{data.address.street}  #{data.address.city}
+        p CP :  #{data.address.zipcode}
+        h3 Localisation
+        ul 
+          li Latitude : #{data.address.geo.lat}
+          li Longitude : #{data.address.geo.lng}
+        h3 Entreprise
+        p #{data.company.name} - #{data.company.catchPhrase} - #{data.company.bs}
