@@ -26,8 +26,8 @@ const findOne = (req, res) => {
   getContent(jsonFile)
   .then(({ articles }) => {
     const article = articles.find(item => item.id == id)
-      if(article) res.render('news/single', article)
-      else res.render('error', { message: `Aucun article avec l'ID ${id}`})
+    if(article) res.render('news/single', article)
+    else res.status(404).render('error', { message: `Aucun article avec l'ID ${id}`})
   }).catch(error => res.render('error', { message : error.message}))
 }
 

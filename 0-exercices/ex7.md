@@ -16,14 +16,14 @@
 ### Exemple de l'utilisation du template pug au niveau des routes
 
 ```js
-router.get('path for articles', (req, res) => {
+router.get('/path/for/articles', (req, res) => {
   const articles = myCustomFunctionFindAll()
   const title = 'Articles du journal lemonde'
   // Ici les données { articles, title } sont transmises à la vue views/news/list.pug pour l'affichage
   res.render('news/list',  { articles, title })
 })
 
-router.get('path for one article', (req, res) => {
+router.get('/path/to/one/article', (req, res) => {
   const article = myCustomFunctionFindOne()
   res.render('news/single',  article)
 })
